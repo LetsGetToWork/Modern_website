@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Développeur Front-End & Webdesigner - Alexandre Fournou</title>
+    <link rel="stylesheet" href="./scss/style.scss">
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <div class="top__link__left text-sm">
+        <a href="./about.html" class="link">Resume</a>
+    </div>
+
+    <div class="top__link text-sm">
+        <a href="./about.html" class="link">About</a>
+    </div>
+
+    <main data-router-wrapper>
+        <div data-router-view="home">
+
+            <nav class="projects text-big">
+                <ul class="projects__list">
+                    <li class="projects__link">
+                        <span class="projects__item">
+                            <div class="project__img">
+                                <picture>
+                                    <source media="(orientation: landscape)" srcset="./img/home/pic-du-midi-nuages_w_360.jpg 360w,
+                                        ./img/home/pic-du-midi-nuages_w_706.jpg 706w,
+                                        ./img/home/pic-du-midi-nuages_w_977.jpg 977w,
+                                        ./img/home/pic-du-midi-nuages_w_1205.jpg 1205w,
+                                        ./img/home/pic-du-midi-nuages_w_1920.jpg 1920w" sizes="100vw" />
+                                    <source srcset="
+                                        ./img/home/wharariki-beach-sunset_w_360.jpg 360w,
+                                        ./img/home/wharariki-beach-sunset_w_749.jpg 749w,
+                                        ./img/home/wharariki-beach-sunset_w_1028.jpg 1028w,
+                                        ./img/home/wharariki-beach-sunset_w_1280.jpg 1280w" sizes="100vw" />
+                                    <img src="./img/home/pic-du-midi-nuages_w_1205.jpg"
+                                        alt="Photo d'Alexandre Fournou" />
+                                </picture>
+                            </div>
+                            <a href="./projets/photo-folio.html" data-transition="project">Work</a>
+                        </span>
+                    </li>
+                    <li class="projects__link">
+                        <span class="projects__item">
+                            <div class="project__img">
+                                <picture>
+                                    <source media="(orientation: landscape)" srcset="
+                                        ./img/home/hero-macce-studio_w_360.jpg 360w,
+                                        ./img/home/hero-macce-studio_w_937.jpg 937w,
+                                        ./img/home/hero-macce-studio_w_1364.jpg 1364w,
+                                        ./img/home/hero-macce-studio_w_1600.jpg 1600w" sizes="100vw" />
+                                    <source srcset="
+                                        ./img/home/hero-mobile-macce-studio_w_360.jpg 360w,
+                                        ./img/home/hero-mobile-macce-studio_w_654.jpg 654w,
+                                        ./img/home/hero-mobile-macce-studio_w_894.jpg 894w,
+                                        ./img/home/hero-mobile-macce-studio_w_1024.jpg 1024w" sizes="100vw" />
+                                    <img src="./img/home/hero-macce-studio_w_1364.jpg"
+                                        alt="Shooting produit de Macce Studio" />
+                                </picture>
+                            </div>
+                            <a href="./projets/macce-studio.html" data-transition="project">Experience</a>
+                        </span>
+                    </li>
+                    <li class="projects__link">
+                        <span class="projects__item">
+                            <div class="project__img">
+                                <picture>
+                                    <source media="(orientation: landscape)" srcset="
+                                        ./img/home/hero-victoria-portfolio_w_360.jpg 360w,
+                                        ./img/home/hero-victoria-portfolio_w_876.jpg 876w,
+                                        ./img/home/hero-victoria-portfolio_w_1259.jpg 1259w,
+                                        ./img/home/hero-victoria-portfolio_w_1500.jpg 1500w" sizes="100vw" />
+                                    <source srcset="
+                                        ./img/home/hero-mobile-victoria-portfolio_w_360.jpg 360w,
+                                        ./img/home/hero-mobile-victoria-portfolio_w_585.jpg 585w,
+                                        ./img/home/hero-mobile-victoria-portfolio_w_775.jpg 775w,
+                                        ./img/home/hero-mobile-victoria-portfolio_w_1052.jpg 1052w" sizes="100vw" />
+                                    <img src="./img/home/hero-victoria-portfolio_w_1259.jpg"
+                                        alt="Une réalisation de Victoria Labalme" />
+                                </picture>
+                            </div>
+                            <a href="./projets/victoria-folio.html" data-transition="project">Research</a>
+                        </span>
+                    </li>
+                    <li class="projects__link">
+                        <span class="projects__item">
+                            <div class="project__img">
+                                <picture>
+                                    <source media="(orientation: landscape)" srcset="
+                                        ./img/home/hero-komono_w_360.jpg 360w,
+                                        ./img/home/hero-komono_w_941.jpg 941w,
+                                        ./img/home/hero-komono_w_1387.jpg 1387w,
+                                        ./img/home/hero-komono_w_1600.jpg 1600w" sizes="100vw" />
+                                    <source srcset="
+                                        ./img/home/hero-mobile-komono_w_360.jpg 360w,
+                                        ./img/home/hero-mobile-komono_w_607.jpg 607w,
+                                        ./img/home/hero-mobile-komono_w_814.jpg 814w,
+                                        ./img/home/hero-mobile-komono_w_931.jpg 931w" sizes="100vw" />
+                                    <img src="./img/home/hero-komono_w_1387.jpg" alt="Une montre komono" />
+                                </picture>
+                            </div>
+                            <a href="./projets/komono.html" data-transition="project">Blog</a>
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </main>
+
+    <footer class="footer container text-sm">
+        <div class="footer__link">
+            <a href="https://www.linkedin.com/in/alexandre-fournou/" class="link" target="_blank">Linkedin</a>
+        </div>
+        <div class="footer__link github">
+            <a href="https://github.com/udaydutt12" class="link" target="_blank">GitHub</a>
+        </div>
+        <div class="footer__link">
+            <a href="mailto:udaydutt@utexas.edu" class="link" target="_blank">Email</a>
+        </div>
+    </footer>
+
+    <div class="screen__transition">
+        <div class="screen__white"></div>
+        <div class="screen__black"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>

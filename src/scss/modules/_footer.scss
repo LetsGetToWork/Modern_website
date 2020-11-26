@@ -1,0 +1,33 @@
+.footer {
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    mix-blend-mode: difference;
+
+    .github {
+        display: none;
+    }
+}
+
+@include up(768) {
+    .footer {
+        .github {
+            display: flex;
+        }
+    }
+}
+
+@include up(992) {
+    .footer {
+        position: fixed;
+        bottom: 50%;
+        left: 50px;
+        transform: translate(-50%, -50%) rotate(-90deg);
+        width: 100vh;
+        width: calc(var(--vh, 1vh) * 100);
+    }
+}
